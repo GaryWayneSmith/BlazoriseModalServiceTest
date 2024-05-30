@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\BlazoriseModalServiceTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest.client\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|solutionrelative:blazorisemodalservicetest.client\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|solutionrelative:blazorisemodalservicetest\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|solutionrelative:blazorisemodalservicetest\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|solutionrelative:blazorisemodalservicetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest\\blazorisemodalservicetest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|solutionrelative:blazorisemodalservicetest\\blazorisemodalservicetest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest.client\\blazorisemodalservicetest.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|solutionrelative:blazorisemodalservicetest.client\\blazorisemodalservicetest.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FDF0C05-352B-4E94-BD3E-476AD40F9857}|BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj|solutionrelative:blazorisemodalservicetest\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest.client\\modalcustom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|solutionrelative:blazorisemodalservicetest.client\\modalcustom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest.client\\modalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|solutionrelative:blazorisemodalservicetest.client\\modalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|solutionrelative:blazorisemodalservicetest.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|c:\\development\\blazorisemodalservicetest\\blazorisemodalservicetest.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99262EE6-631A-4D73-B185-F720645CA548}|BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj|solutionrelative:blazorisemodalservicetest.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c3630016-f162-4af5-b165-9f468a642e9a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest\\Components\\Routes.razor",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazoriseModalServiceTest\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T18:09:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest\\Components\\App.razor",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Components\\App.razor",
+              "RelativeToolTip": "BlazoriseModalServiceTest\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T18:05:50.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlazoriseModalServiceTest",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj",
+              "RelativeToolTip": "BlazoriseModalServiceTest\\BlazoriseModalServiceTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-30T18:03:57.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Program.cs",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest\\Program.cs",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Program.cs",
+              "RelativeToolTip": "BlazoriseModalServiceTest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:03:22.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazoriseModalServiceTest\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T18:02:26.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModalCustom.razor",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\ModalCustom.razor",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest.Client\\ModalCustom.razor",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\ModalCustom.razor",
+              "RelativeToolTip": "BlazoriseModalServiceTest.Client\\ModalCustom.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T18:00:50.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModalResult.cs",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\ModalResult.cs",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest.Client\\ModalResult.cs",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\ModalResult.cs",
+              "RelativeToolTip": "BlazoriseModalServiceTest.Client\\ModalResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:00:18.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest.Client\\_Imports.razor",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\_Imports.razor",
+              "RelativeToolTip": "BlazoriseModalServiceTest.Client\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T17:59:45.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\Index.razor",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest.Client\\Index.razor",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\Index.razor",
+              "RelativeToolTip": "BlazoriseModalServiceTest.Client\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T17:59:25.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest.Client\\Program.cs",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\Program.cs",
+              "RelativeToolTip": "BlazoriseModalServiceTest.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:58:59.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlazoriseModalServiceTest.Client",
+              "DocumentMoniker": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj",
+              "RelativeDocumentMoniker": "BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj",
+              "ToolTip": "C:\\Development\\BlazoriseModalServiceTest\\BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj",
+              "RelativeToolTip": "BlazoriseModalServiceTest.Client\\BlazoriseModalServiceTest.Client.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-30T17:58:30.147Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

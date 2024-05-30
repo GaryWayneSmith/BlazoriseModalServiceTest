@@ -1,0 +1,46 @@
+﻿@page "/"
+@using System.Diagnostics
+
+<ModalProvider UseModalStructure Animated Size="ModalSize.ExtraLarge" />
+<Button class="mt-3" Color="Color.Success" Type="ButtonType.Button" Size="Size.Small" @onclick="OnEditClick">My Modal</Button>
+
+
+@code {
+    [Inject] public IModalService ModalService { get; set; }
+
+    int Model = 0;
+
+    private async Task OnEditClick()
+    {
+        await ModalService.Show<ModalCustom>("Dialog Page",
+            parameters =>
+            {
+                parameters.Add("Request", new ModalCustom.RequestModel { PageId=42, });
+                parameters.Add("OnDialogCompleted", EventCallback.Factory.Create<ModalResult<int>>(this, OnDialogCompleted));
+            },
+            new ModalInstanceOptions()
+                {
+                    Size= ModalSize.Small,
+                    UseModalStructure = false,
+                    Animated = false,
+
+                }
+        );
+        Debug.WriteLine("OnEditClick complete");
+    }
+
+    private async void OnDialogCompleted(ModalResult<int> r)
+    {
+        await ModalService.Hide();
+        if (r.ResultType == ModalResult<int>.ModalResultType.OK)
+        {
+            if (r.Data == 0)
+            {
+                Debug.Write("Invalid page returned");
+                return;
+            }
+            Model = r.Data;
+            StateHasChanged();
+        }
+    }
+}

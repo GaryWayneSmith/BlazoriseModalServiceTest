@@ -1,0 +1,38 @@
+﻿@using System.Diagnostics
+
+<Button class="mt-3" Color="Color.Success" Type="ButtonType.Button" Size="Size.Small" @onclick="Save">Save</Button>
+<Button class="mt-3" Color="Color.Success" Type="ButtonType.Button" Size="Size.Small" @onclick="Cancel">Cancel</Button>
+
+@code {
+
+
+
+    public class RequestModel
+    {
+        public int PageId { get; set; }
+    }
+
+
+    [Parameter] public RequestModel Request { get; set; } = default;
+    [Parameter] public EventCallback<ModalResult<int>> OnDialogCompleted { get; set; }
+    int interation = 0;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        interation++;
+        Debug.WriteLine($"OnParametersSetAsync, iteration: {interation}");
+
+        await base.OnParametersSetAsync();
+    }
+
+    protected async Task Save()
+    {
+        Debug.WriteLine($"Save, iteration: {interation}");
+        await OnDialogCompleted.InvokeAsync(ModalResult<int>.OK(22));
+    }
+    protected async Task Cancel()
+    {
+        Debug.WriteLine($"Cancel, iteration: {interation}");
+        await OnDialogCompleted.InvokeAsync(ModalResult<int>.Cancel());
+    }
+}

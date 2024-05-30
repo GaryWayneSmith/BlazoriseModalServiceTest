@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazoriseModalServiceTest", "BlazoriseModalServiceTest\BlazoriseModalServiceTest.csproj", "{8FDF0C05-352B-4E94-BD3E-476AD40F9857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazoriseModalServiceTest.Client", "BlazoriseModalServiceTest.Client\BlazoriseModalServiceTest.Client.csproj", "{99262EE6-631A-4D73-B185-F720645CA548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FDF0C05-352B-4E94-BD3E-476AD40F9857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDF0C05-352B-4E94-BD3E-476AD40F9857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDF0C05-352B-4E94-BD3E-476AD40F9857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDF0C05-352B-4E94-BD3E-476AD40F9857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99262EE6-631A-4D73-B185-F720645CA548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99262EE6-631A-4D73-B185-F720645CA548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99262EE6-631A-4D73-B185-F720645CA548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99262EE6-631A-4D73-B185-F720645CA548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBBA0D1B-A5EA-44C3-9ED9-163A4698C9CC}
+	EndGlobalSection
+EndGlobal
