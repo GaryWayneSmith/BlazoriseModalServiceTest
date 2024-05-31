@@ -7,32 +7,92 @@
 
 
 
-    public class RequestModel
+    public class ModalParameterModel<TResult>
     {
         public int PageId { get; set; }
+
+        public EventCallback<ModalResult<TResult>> OnDialogCompleted { get; set; }
+
+        // Only needed for in-process dialog calls
+        // public override bool Equals(object obj)
+        // {
+        //     var refObject = obj as ModalParameterModel<TResult>;
+        //     if (refObject == null)
+        //     {
+        //         return false;
+        //     }
+        //     return PageId == refObject.PageId;
+        // }
+
+        // public override int GetHashCode()
+        // {
+        //     // Follow whatever your best practices are.  This was just for testing
+        //     return this.PageId.GetHashCode();
+        // }
     }
 
+    [Parameter] public ModalParameterModel<int> ModalParameters { get; set; } = default;
 
-    [Parameter] public RequestModel Request { get; set; } = default;
-    [Parameter] public EventCallback<ModalResult<int>> OnDialogCompleted { get; set; }
     int interation = 0;
+
+    protected override Task OnInitializedAsync()
+    {
+        Debug.WriteLine("OnInitializedAsync");
+        return base.OnInitializedAsync();
+    }
+
+    public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        Debug.WriteLine("SetParametersAsync");
+        if (ModalParameters == null)
+        {
+            ModalParameters = parameters.GetValueOrDefault<ModalParameterModel<int>>(nameof(ModalParameters));
+            await base.SetParametersAsync(ParameterView.Empty);
+        }
+    }
+
+    // public override async Task SetParametersAsync(ParameterView parameters)
+    // {
+    //     bool hasChange = false;
+    //     foreach (var parameter in parameters)
+    //     {
+    //         switch (parameter.Name)
+    //         {
+    //             case nameof(ModalParameters):
+    //                 ModalParameterModel<int> newVal = (ModalParameterModel<int>)parameter.Value;
+    //                 if (newVal.Equals(ModalParameters))
+    //                 {
+    //                     continue;
+    //                 }
+    //                 ModalParameters = newVal;
+    //                 hasChange = true;
+    //                 break;
+    //             default:
+    //                 throw new ArgumentException($"Unknown parameter: {parameter.Name}");
+    //         }
+    //     }
+
+    //     if (hasChange)
+    //     {
+    //         await base.SetParametersAsync(ParameterView.Empty);
+    //     }
+    // }
 
     protected override async Task OnParametersSetAsync()
     {
         interation++;
         Debug.WriteLine($"OnParametersSetAsync, iteration: {interation}");
-
         await base.OnParametersSetAsync();
     }
 
     protected async Task Save()
     {
         Debug.WriteLine($"Save, iteration: {interation}");
-        await OnDialogCompleted.InvokeAsync(ModalResult<int>.OK(22));
+        await ModalParameters.OnDialogCompleted.InvokeAsync(ModalResult<int>.OK(22));
     }
     protected async Task Cancel()
     {
         Debug.WriteLine($"Cancel, iteration: {interation}");
-        await OnDialogCompleted.InvokeAsync(ModalResult<int>.Cancel());
+        await ModalParameters.OnDialogCompleted.InvokeAsync(ModalResult<int>.Cancel());
     }
 }

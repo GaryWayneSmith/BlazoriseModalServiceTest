@@ -12,11 +12,13 @@
 
     private async Task OnEditClick()
     {
-        await ModalService.Show<ModalCustom>("Dialog Page",
-            parameters =>
+        await ModalService.Show<ModalCustom>("Dialog Page", p =>
             {
-                parameters.Add("Request", new ModalCustom.RequestModel { PageId=42, });
-                parameters.Add("OnDialogCompleted", EventCallback.Factory.Create<ModalResult<int>>(this, OnDialogCompleted));
+                p.Add("ModalParameters", new ModalCustom.ModalParameterModel<int>
+                    {
+                        PageId=42,
+                        OnDialogCompleted=EventCallback.Factory.Create<ModalResult<int>>(this, OnDialogCompleted)
+                    });
             },
             new ModalInstanceOptions()
                 {
@@ -24,8 +26,8 @@
                     UseModalStructure = false,
                     Animated = false,
 
-                }
-        );
+                });
+
         Debug.WriteLine("OnEditClick complete");
     }
 
